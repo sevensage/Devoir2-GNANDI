@@ -11,6 +11,9 @@ url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype);
 
 h1, h2, h3 {font-family: "Lato", sans-serif;
 }
+bofy {
+    font-family: Raleway, sans sérif;
+}
 
 
 
