@@ -1,21 +1,19 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-</style>
 
 @font-face{
-font-family: "Ralaway";
-src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
-src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format(truetype),
+font-family: "Raleway";
+src: url(../fonts/Raleway-Italic-VariableFont_wght\(1\).woff);
+src: url(../fonts/Raleway-Italic-VariableFont_wght.otf) format(OpenType Font),
 url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype);
+
 }
 
 h1, h2, h3 {font-family: "Lato", sans-serif;
 }
 bofy {
     font-family: Raleway, sans sérif;
+    background: #f4f4f4;
 }
-
-
 
 * {
     box-sizing: border-box;
@@ -23,10 +21,6 @@ bofy {
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}
 
 .cv-wrapper {
     max-width: 1160px;
@@ -138,7 +132,10 @@ aside h3 {
 
 .etoiles-HTML {
     width: 60px;
-    margin-left: 130px;
+    margin-left: 127px;
+    margin-top:0px;
+    position: absolute;
+    top: 315px;
 }
 .etoiles-CSS {
     width: 60px;
@@ -152,10 +149,10 @@ aside h3 {
 }
 
 .langue-1 {
-    margin-right: 39px;
+    margin-right: 60px;
 }
 .langue-2 {
-    margin-right: 84px;
+    margin-right: 95px;
 }
 
 .niveau {
